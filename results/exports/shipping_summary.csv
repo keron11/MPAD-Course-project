@@ -1,0 +1,5 @@
+﻿Ship Mode,SLA_Days,Base_Shipping_Cost,Orders,Total_Sales,Total_Profit,Orders_Share_Pct,Profit_Margin_Pct
+Standard Class,6,5.0,5955,1357316.35,163969.23,59.69,12.08
+Second Class,4,10.0,1943,459177.05,57446.65,19.47,12.51
+First Class,2,15.0,1537,351380.47,48953.66,15.41,13.93
+Same Day,0,25.0,542,128321.72,15871.89,5.43,12.37

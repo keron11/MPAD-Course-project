@@ -1,0 +1,5 @@
+﻿Region,Regional_Manager,Regional_Hub,Orders,Total_Sales,Total_Profit,Avg_Discount,Profit_Margin_Pct,Avg_Discount_Pct
+West,Anna Andreadi,Los Angeles,3193,725255.64,108329.81,0.11,14.94,10.96
+East,Chuck Magee,New York,2845,678435.2,91506.31,0.15,13.49,14.53
+South,Cassandra Brandow,Atlanta,1620,391721.9,46749.43,0.15,11.93,14.73
+Central,Kelly Williams,Chicago,2319,500782.85,39655.88,0.24,7.92,24.03

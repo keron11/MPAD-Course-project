@@ -1,0 +1,5 @@
+Ship Mode,SLA_Days,Priority_Level,Base_Shipping_Cost
+Same Day,0,1,25.0
+First Class,2,2,15.0
+Second Class,4,3,10.0
+Standard Class,6,4,5.0

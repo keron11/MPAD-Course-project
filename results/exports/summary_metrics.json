@@ -1,0 +1,437 @@
+{
+  "raw_rows": 9994,
+  "raw_cols": 13,
+  "missing_before": 0,
+  "duplicates_before": 17,
+  "clean_rows": 9977,
+  "duplicates_removed": 17,
+  "invalid_sales": 0,
+  "invalid_quantity": 0,
+  "invalid_discount": 0,
+  "outliers_iqr": {
+    "Sales": {
+      "q1": 17.3,
+      "q3": 209.97,
+      "iqr": 192.67,
+      "lower": -271.7,
+      "upper": 498.98,
+      "count": 1167,
+      "pct": 11.7
+    },
+    "Profit": {
+      "q1": 1.73,
+      "q3": 29.37,
+      "iqr": 27.65,
+      "lower": -39.74,
+      "upper": 70.84,
+      "count": 1881,
+      "pct": 18.85
+    },
+    "Quantity": {
+      "q1": 2.0,
+      "q3": 5.0,
+      "iqr": 3.0,
+      "lower": -2.5,
+      "upper": 9.5,
+      "count": 170,
+      "pct": 1.7
+    }
+  },
+  "missing_after_merge": 0,
+  "final_cols": 24,
+  "kpi": {
+    "total_sales": 2296195.59,
+    "total_profit": 286241.42,
+    "overall_margin_pct": 12.47,
+    "total_quantity": 37820,
+    "avg_order_sales": 230.15,
+    "median_order_sales": 54.82,
+    "avg_profit": 28.69,
+    "median_profit": 8.67,
+    "avg_discount_pct": 15.63,
+    "profitable_orders": 8043,
+    "loss_orders": 1869,
+    "breakeven_orders": 65,
+    "loss_orders_pct": 18.73
+  },
+  "category_summary": [
+    {
+      "Category": "Technology",
+      "Orders": 1847,
+      "Total_Sales": 836154.03,
+      "Avg_Sales": 452.71,
+      "Total_Profit": 145454.95,
+      "Avg_Discount": 0.13,
+      "Total_Quantity": 6939,
+      "Profit_Margin_Pct": 17.4,
+      "Avg_Discount_Pct": 13.23,
+      "Sales_Share_Pct": 36.41
+    },
+    {
+      "Category": "Office Supplies",
+      "Orders": 6012,
+      "Total_Sales": 718735.24,
+      "Avg_Sales": 119.55,
+      "Total_Profit": 122364.66,
+      "Avg_Discount": 0.16,
+      "Total_Quantity": 22861,
+      "Profit_Margin_Pct": 17.02,
+      "Avg_Discount_Pct": 15.74,
+      "Sales_Share_Pct": 31.3
+    },
+    {
+      "Category": "Furniture",
+      "Orders": 2118,
+      "Total_Sales": 741306.31,
+      "Avg_Sales": 350.0,
+      "Total_Profit": 18421.81,
+      "Avg_Discount": 0.17,
+      "Total_Quantity": 8020,
+      "Profit_Margin_Pct": 2.49,
+      "Avg_Discount_Pct": 17.4,
+      "Sales_Share_Pct": 32.28
+    }
+  ],
+  "top5_subcategories": [
+    {
+      "Category": "Technology",
+      "Sub-Category": "Copiers",
+      "Orders": 68,
+      "Total_Sales": 149528.03,
+      "Total_Profit": 55617.82,
+      "Avg_Discount": 0.16,
+      "Total_Quantity": 234,
+      "Profit_Margin_Pct": 37.2,
+      "Avg_Discount_Pct": 16.18,
+      "Profit_Rank": 1
+    },
+    {
+      "Category": "Technology",
+      "Sub-Category": "Phones",
+      "Orders": 889,
+      "Total_Sales": 330007.05,
+      "Total_Profit": 44515.73,
+      "Avg_Discount": 0.15,
+      "Total_Quantity": 3289,
+      "Profit_Margin_Pct": 13.49,
+      "Avg_Discount_Pct": 15.46,
+      "Profit_Rank": 2
+    },
+    {
+      "Category": "Technology",
+      "Sub-Category": "Accessories",
+      "Orders": 775,
+      "Total_Sales": 167380.32,
+      "Total_Profit": 41936.64,
+      "Avg_Discount": 0.08,
+      "Total_Quantity": 2976,
+      "Profit_Margin_Pct": 25.05,
+      "Avg_Discount_Pct": 7.85,
+      "Profit_Rank": 3
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Paper",
+      "Orders": 1359,
+      "Total_Sales": 78224.14,
+      "Total_Profit": 33944.24,
+      "Avg_Discount": 0.07,
+      "Total_Quantity": 5144,
+      "Profit_Margin_Pct": 43.39,
+      "Avg_Discount_Pct": 7.49,
+      "Profit_Rank": 4
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Binders",
+      "Orders": 1522,
+      "Total_Sales": 203409.17,
+      "Total_Profit": 30228.0,
+      "Avg_Discount": 0.37,
+      "Total_Quantity": 5971,
+      "Profit_Margin_Pct": 14.86,
+      "Avg_Discount_Pct": 37.2,
+      "Profit_Rank": 5
+    }
+  ],
+  "bottom5_subcategories": [
+    {
+      "Category": "Technology",
+      "Sub-Category": "Machines",
+      "Orders": 115,
+      "Total_Sales": 189238.63,
+      "Total_Profit": 3384.76,
+      "Avg_Discount": 0.31,
+      "Total_Quantity": 440,
+      "Profit_Margin_Pct": 1.79,
+      "Avg_Discount_Pct": 30.61,
+      "Profit_Rank": 13
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Fasteners",
+      "Orders": 217,
+      "Total_Sales": 3024.28,
+      "Total_Profit": 949.52,
+      "Avg_Discount": 0.08,
+      "Total_Quantity": 914,
+      "Profit_Margin_Pct": 31.4,
+      "Avg_Discount_Pct": 8.2,
+      "Profit_Rank": 14
+    },
+    {
+      "Category": "Office Supplies",
+      "Sub-Category": "Supplies",
+      "Orders": 190,
+      "Total_Sales": 46673.54,
+      "Total_Profit": -1189.1,
+      "Avg_Discount": 0.08,
+      "Total_Quantity": 647,
+      "Profit_Margin_Pct": -2.55,
+      "Avg_Discount_Pct": 7.68,
+      "Profit_Rank": 15
+    },
+    {
+      "Category": "Furniture",
+      "Sub-Category": "Bookcases",
+      "Orders": 228,
+      "Total_Sales": 114880.0,
+      "Total_Profit": -3472.56,
+      "Avg_Discount": 0.21,
+      "Total_Quantity": 868,
+      "Profit_Margin_Pct": -3.02,
+      "Avg_Discount_Pct": 21.11,
+      "Profit_Rank": 16
+    },
+    {
+      "Category": "Furniture",
+      "Sub-Category": "Tables",
+      "Orders": 319,
+      "Total_Sales": 206965.53,
+      "Total_Profit": -17725.48,
+      "Avg_Discount": 0.26,
+      "Total_Quantity": 1241,
+      "Profit_Margin_Pct": -8.56,
+      "Avg_Discount_Pct": 26.13,
+      "Profit_Rank": 17
+    }
+  ],
+  "region_summary": [
+    {
+      "Region": "West",
+      "Regional_Manager": "Anna Andreadi",
+      "Regional_Hub": "Los Angeles",
+      "Orders": 3193,
+      "Total_Sales": 725255.64,
+      "Total_Profit": 108329.81,
+      "Avg_Discount": 0.11,
+      "Profit_Margin_Pct": 14.94,
+      "Avg_Discount_Pct": 10.96
+    },
+    {
+      "Region": "East",
+      "Regional_Manager": "Chuck Magee",
+      "Regional_Hub": "New York",
+      "Orders": 2845,
+      "Total_Sales": 678435.2,
+      "Total_Profit": 91506.31,
+      "Avg_Discount": 0.15,
+      "Profit_Margin_Pct": 13.49,
+      "Avg_Discount_Pct": 14.53
+    },
+    {
+      "Region": "South",
+      "Regional_Manager": "Cassandra Brandow",
+      "Regional_Hub": "Atlanta",
+      "Orders": 1620,
+      "Total_Sales": 391721.9,
+      "Total_Profit": 46749.43,
+      "Avg_Discount": 0.15,
+      "Profit_Margin_Pct": 11.93,
+      "Avg_Discount_Pct": 14.73
+    },
+    {
+      "Region": "Central",
+      "Regional_Manager": "Kelly Williams",
+      "Regional_Hub": "Chicago",
+      "Orders": 2319,
+      "Total_Sales": 500782.85,
+      "Total_Profit": 39655.88,
+      "Avg_Discount": 0.24,
+      "Profit_Margin_Pct": 7.92,
+      "Avg_Discount_Pct": 24.03
+    }
+  ],
+  "segment_summary": [
+    {
+      "Segment": "Consumer",
+      "Orders": 5183,
+      "Total_Sales": 1160832.77,
+      "Avg_Sales": 223.97,
+      "Total_Profit": 134007.44,
+      "Profit_Margin_Pct": 11.54
+    },
+    {
+      "Segment": "Corporate",
+      "Orders": 3015,
+      "Total_Sales": 706070.13,
+      "Avg_Sales": 234.19,
+      "Total_Profit": 91954.98,
+      "Profit_Margin_Pct": 13.02
+    },
+    {
+      "Segment": "Home Office",
+      "Orders": 1779,
+      "Total_Sales": 429292.68,
+      "Avg_Sales": 241.31,
+      "Total_Profit": 60279.0,
+      "Profit_Margin_Pct": 14.04
+    }
+  ],
+  "shipping_summary": [
+    {
+      "Ship Mode": "Standard Class",
+      "SLA_Days": 6,
+      "Base_Shipping_Cost": 5.0,
+      "Orders": 5955,
+      "Total_Sales": 1357316.35,
+      "Total_Profit": 163969.23,
+      "Orders_Share_Pct": 59.69,
+      "Profit_Margin_Pct": 12.08
+    },
+    {
+      "Ship Mode": "Second Class",
+      "SLA_Days": 4,
+      "Base_Shipping_Cost": 10.0,
+      "Orders": 1943,
+      "Total_Sales": 459177.05,
+      "Total_Profit": 57446.65,
+      "Orders_Share_Pct": 19.47,
+      "Profit_Margin_Pct": 12.51
+    },
+    {
+      "Ship Mode": "First Class",
+      "SLA_Days": 2,
+      "Base_Shipping_Cost": 15.0,
+      "Orders": 1537,
+      "Total_Sales": 351380.47,
+      "Total_Profit": 48953.66,
+      "Orders_Share_Pct": 15.41,
+      "Profit_Margin_Pct": 13.93
+    },
+    {
+      "Ship Mode": "Same Day",
+      "SLA_Days": 0,
+      "Base_Shipping_Cost": 25.0,
+      "Orders": 542,
+      "Total_Sales": 128321.72,
+      "Total_Profit": 15871.89,
+      "Orders_Share_Pct": 5.43,
+      "Profit_Margin_Pct": 12.37
+    }
+  ],
+  "discount_summary": [
+    {
+      "Discount_Tier": "Без знижки (0%)",
+      "Orders": 4787,
+      "Total_Sales": 1087277.56,
+      "Total_Profit": 320844.41,
+      "Avg_Profit": 67.02,
+      "Avg_Margin_Pct": 34.0
+    },
+    {
+      "Discount_Tier": "Помірна (1–20%)",
+      "Orders": 3799,
+      "Total_Sales": 846432.82,
+      "Total_Profit": 100754.78,
+      "Avg_Profit": 26.52,
+      "Avg_Margin_Pct": 17.42
+    },
+    {
+      "Discount_Tier": "Середня (21–40%)",
+      "Orders": 459,
+      "Total_Sales": 233856.53,
+      "Total_Profit": -35805.41,
+      "Avg_Profit": -78.01,
+      "Avg_Margin_Pct": -16.71
+    },
+    {
+      "Discount_Tier": "Висока (>40%)",
+      "Orders": 932,
+      "Total_Sales": 128628.69,
+      "Total_Profit": -99552.35,
+      "Avg_Profit": -106.82,
+      "Avg_Margin_Pct": -108.83
+    }
+  ],
+  "top5_states": [
+    {
+      "State": "California",
+      "Orders": 1996,
+      "Total_Sales": 457576.27,
+      "Total_Profit": 76330.79
+    },
+    {
+      "State": "New York",
+      "Orders": 1127,
+      "Total_Sales": 310827.15,
+      "Total_Profit": 74015.46
+    },
+    {
+      "State": "Washington",
+      "Orders": 502,
+      "Total_Sales": 138560.81,
+      "Total_Profit": 33368.24
+    },
+    {
+      "State": "Michigan",
+      "Orders": 254,
+      "Total_Sales": 75879.64,
+      "Total_Profit": 24428.09
+    },
+    {
+      "State": "Virginia",
+      "Orders": 224,
+      "Total_Sales": 70636.72,
+      "Total_Profit": 18597.95
+    }
+  ],
+  "bottom5_states": [
+    {
+      "State": "North Carolina",
+      "Orders": 249,
+      "Total_Sales": 55603.16,
+      "Total_Profit": -7490.91
+    },
+    {
+      "State": "Illinois",
+      "Orders": 491,
+      "Total_Sales": 80162.54,
+      "Total_Profit": -12601.65
+    },
+    {
+      "State": "Pennsylvania",
+      "Orders": 586,
+      "Total_Sales": 116496.36,
+      "Total_Profit": -15565.4
+    },
+    {
+      "State": "Ohio",
+      "Orders": 468,
+      "Total_Sales": 77976.76,
+      "Total_Profit": -16959.32
+    },
+    {
+      "State": "Texas",
+      "Orders": 983,
+      "Total_Sales": 170124.54,
+      "Total_Profit": -25750.98
+    }
+  ],
+  "correlations": {
+    "sales_profit": 0.479,
+    "discount_profit": -0.22,
+    "discount_margin": -0.864,
+    "quantity_sales": 0.201
+  }
+}
